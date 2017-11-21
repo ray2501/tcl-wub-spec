@@ -1,0 +1,14 @@
+[Unit]
+Description=Tcl Wub web-server
+
+[Service]
+WorkingDirectory=/var/opt/wub
+ExecStart=/usr/bin/tclsh Wub.tcl
+Restart=always
+# Restart service after 10 seconds if Wub service crashes
+RestartSec=10
+User=wwwrun
+Group=www
+SyslogIdentifier=wub
+
+[Install]
