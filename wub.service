@@ -1,5 +1,6 @@
 [Unit]
 Description=Tcl Wub web-server
+After=network.target
 
 [Service]
 WorkingDirectory=/var/opt/wub
@@ -12,3 +13,4 @@ Group=www
 SyslogIdentifier=wub
 
 [Install]
+WantedBy=multi-user.target
