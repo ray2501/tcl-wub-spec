@@ -9,7 +9,7 @@ BuildRequires:  tcl
 BuildRequires:  systemd-rpm-macros
 Version:        5.0
 Release:        0
-Summary:        Tcl Wub web-server
+Summary:        BSD-3-Clause
 Url:            https://github.com/tcler/wub
 License:        New BSD License
 Group:          Productivity/Networking/Web/Servers
